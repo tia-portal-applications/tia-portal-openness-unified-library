@@ -1,0 +1,7 @@
+variables:
+  TargetRepoGitFile: 'github.com/tia-portal-applications/TIA-Add-In-ShowScripts.git'
+  GithubAccessToken: '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'
+
+include:
+  - project: 'simatic-systems-support/visualization/sync-to-github'
+    file: '.gitlab-ci.yml'
